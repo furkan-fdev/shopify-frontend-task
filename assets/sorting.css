@@ -1,0 +1,171 @@
+.fdev-facets {
+    padding: 0px;
+}
+
+.fdev-facets .facet-filters {
+    width: 100%;
+}
+
+.fdev-facets .facet-filters .facet-filters__field {
+    justify-content: space-between;
+}
+
+.fdev-facets .fdev-sorting-right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fdev-facets .fdev-sorting-right-filter {
+    display: flex;
+}
+
+.fdev-facets .fdev-sorting-right-filter h2 {
+    font-family: "Satoshi";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #00000099;
+    margin: 5px;
+}
+
+.fdev-facets .select__select:focus {
+    box-shadow: none;
+}
+
+.fdev-facets .fdev-sorting-right-filter .facet-filters__sort {
+    font-family: "Satoshi";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: black;
+}
+
+.fdev-facets .facet-filters {
+    padding-left: 0px;
+}
+
+.fdev-facets .product-count__text {
+    font-family: "Satoshi";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    margin-right: 12px;
+    color: #00000099;
+}
+
+
+.fdev-facets .fdev-facet-title {
+    font-family: "Satoshi";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    margin: 0px;
+
+}
+
+
+
+.fdev-facets .facets-vertical-form {
+    margin: 10px 0px 16px;
+}
+
+.fdev-facets .product-count-vertical {
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.fdev-collection .card__media,
+.fdev-collection .card__media .media,
+.fdev-collection .card__media .media img,
+.fdev-collection .card--card,
+.fdev-collection .card--standard .card__inner {
+    border-radius: 20px;
+    height: 295px;
+
+}
+
+.fdev-collection .card__heading a {
+    font-family: "Satoshi";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    text-decoration: none;
+}
+
+.fdev-collection .card-wrapper:hover .card__heading a {
+
+    text-decoration: none;
+}
+
+.fdev-collection .price--on-sale .price__sale {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fdev-collection .price--on-sale .price__sale .price-item--sale {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 135%;
+    color: black;
+    margin-right: 10px !important;
+}
+
+.fdev-collection .price--on-sale .price__sale .price-item--regular {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    color: #00000066;
+
+}
+
+.fdev-collection .price__container .price-item--regular {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: black;
+}
+
+.fdev-collection .card-information {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+.fdev-discount-badge {
+    background: #FF33331A;
+    color: #FF3333 !important;
+    padding: 6px 13px;
+    border-radius: 62px;
+    font-family: "Satoshi";
+    font-weight: 500;
+    font-size: 12px;
+
+}
+
+.mobile-facets__disclosure {
+    display: flex;
+    width: 100%;
+}
+
+.mobile-facets__open-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.mobile-facets__open {
+    justify-content: space-between;
+}
+
+.fdev-mobile-collection-left {
+    display: flex;
+}
+
+.fdev-mobile-collection-title {
+    margin: 0px 8px 0px 0px;
+}

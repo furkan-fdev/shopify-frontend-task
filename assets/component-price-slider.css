@@ -1,0 +1,164 @@
+.facets-container {
+    border: 1px solid #0000001A;
+    border-radius: 20px;
+    padding: 20px 24px;
+}
+
+.fdev-filter-price {
+    width: 100%;
+    --min-pos: 20%;
+    --max-pos: 80%;
+}
+
+.fdev-filter-price__inputs {
+    display: none;
+}
+
+.price-slider {
+    position: relative;
+    width: 100%;
+    margin: 12px 0 8px;
+    height: 26px;
+}
+
+.price-slider__track {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    border-radius: 999px;
+    background: #f0f0f0;
+    width: 100%;
+    display: block !important;
+}
+
+.price-slider__range {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4px;
+    border-radius: 999px;
+    background: #000;
+    left: var(--min-pos);
+    right: calc(100% - var(--max-pos));
+    display: block !important;
+
+}
+
+.price-slider__thumb {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 18px;
+    border-radius: 999px;
+    background: #000;
+    pointer-events: auto;
+    cursor: grab;
+    z-index: 2;
+    border: 0;
+    padding: 0;
+}
+
+.price-slider__thumb:active {
+    cursor: grabbing;
+}
+
+.price-slider__thumb--min {
+    left: var(--min-pos);
+}
+
+.price-slider__thumb--max {
+    left: var(--max-pos);
+}
+
+.price-slider__values {
+    position: relative;
+    height: 18px;
+}
+
+.price-slider__value {
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    font-size: 16px;
+    line-height: 1;
+    color: #000;
+    white-space: nowrap;
+}
+
+.price-slider__value--min {
+    left: var(--min-pos);
+}
+
+.price-slider__value--max {
+    left: var(--max-pos);
+}
+
+.fdev-color-filter .facet-checkbox__text {
+    display: none;
+}
+
+.fdev-size-filter .facets-layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fdev-size-filter .list-menu__item {
+    margin-bottom: 8px;
+}
+
+.fdev-size-filter .list-menu__item:nth-child(even) {
+    margin-left: 8px;
+}
+
+.fdev-size-filter .list-menu__item:last-child {
+    margin-bottom: 0px;
+}
+
+.fdev-size-filter .list-menu__item.facets__item svg {
+    display: none;
+}
+
+.fdev-size-filter .svg-wrapper {
+    display: none;
+}
+
+.fdev-size-filter .facets__label.facet-checkbox {
+    background-color: #F0F0F0;
+    text-decoration: none;
+    border-radius: 62px;
+    color: #00000099;
+    padding: 10px 20px;
+}
+
+.fdev-size-filter .facets__label.facet-checkbox.active {
+    background-color: #000;
+    color: white;
+    border: 2px solid #00000033;
+}
+
+.fdev-size-filter .facets__label:hover {
+    text-decoration: none;
+}
+
+.facets__display-vertical {
+    padding-bottom: 24px;
+}
+
+.fdev-apply-button {
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    font-family: "Satoshi";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    padding: 14.5px 0px;
+    cursor: pointer;
+}
+
+.fdev-apply-button.is-active {
+    background-color: #000;
+    color: white;
+}
