@@ -162,3 +162,34 @@
     background-color: #000;
     color: white;
 }
+
+@media (max-width: 768px) {
+
+    .fdev-filter-price,
+    .price-slider {
+        width: 90% !important;
+        margin: 0 auto !important;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .price-slider__track {
+        width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+    }
+
+    .price-slider__range {
+        max-width: 100% !important;
+    }
+
+    .price-slider__thumb--min,
+    .price-slider__thumb--max {
+        max-width: 100% !important;
+    }
+
+    .price-slider__values {
+        width: 90% !important;
+        margin: 0 auto !important;
+    }
+}

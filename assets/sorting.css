@@ -164,8 +164,243 @@
 
 .fdev-mobile-collection-left {
     display: flex;
+    width: 92%;
 }
 
 .fdev-mobile-collection-title {
     margin: 0px 8px 0px 0px;
+}
+
+.fdev-mobile-collection-left .svg-wrapper {
+    width: 8%;
+}
+
+.menu-opening .mobile-facets__inner {
+    transform: translateY(50vh) !important;
+    width: 100%;
+    max-width: none;
+    height: 50%;
+
+}
+
+.js .disclosure-has-popup:not(.menu-opening) .mobile-facets__inner {
+    transform: translateY(105vh) !important;
+    width: 100%;
+    max-width: none;
+}
+
+@media (max-width:749.98px) {
+    .facets-container {
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .facets-vertical {
+        display: block !important;
+    }
+
+    .facets-wrapper {
+        display: block !important;
+        position: relative;
+        width: 100%;
+    }
+
+    .facets__disclosure-vertical {
+        border-bottom: 1px solid #e5e5e5;
+        padding: 10px 0;
+    }
+
+    .facets__summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .facets__display-vertical {
+        display: block !important;
+        padding: 10px 0 15px;
+    }
+}
+
+.mobile-facets__inner {
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.mobile-filter-color-group ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+}
+
+.mobile-filter-item input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.mobile-color-swatch {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
+    cursor: pointer;
+    width: 37px;
+    height: 37px;
+}
+
+.color-dot {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    display: block;
+    border: 0.1rem solid rgba(var(--color-foreground), 0.15);
+}
+
+
+.mobile-accordion {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.mobile-accordion-title {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-accordion[open] .arrow {
+    transform: rotate(180deg);
+}
+
+.mobile-accordion-content {
+    padding: 10px 0;
+}
+
+.mobile-filter-normal-group .mobile-filter-list {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.mobile-filter-normal-group .mobile-filter-list li {
+    background-color: #F0F0F0;
+    border-radius: 62px;
+    width: fit-content;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.mobile-filter-normal-group .mobile-filter-list li .mobile-filter-label {
+    font-family: "Satoshi";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #00000099;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.mobile-filter-normal-group .mobile-filter-list li label.active .mobile-filter-label {
+    background-color: black;
+    color: white;
+    border-radius: 62px;
+
+}
+
+.mobile-facets__footer {
+    padding: 0px;
+    border-top: none;
+    background: none;
+}
+
+.mobile-facets__footer button {
+    font-family: "Satoshi";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 14px 0px;
+    width: 100%;
+    border-radius: 62px;
+    background-color: #F0F0F0;
+    border: none;
+}
+
+.mobile-facets__footer button.is-active {
+    color: white;
+    background-color: black;
+}
+
+.mobile-filter-title {
+    font-family: "Satoshi";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: black;
+}
+
+.mobile-facets__header {
+    padding: 0px 0px 16px 0px;
+}
+
+.mobile-facets__header .mobile-facets__header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-facets__header .mobile-facets__header-inner .mobile-facets__close {
+    background: transparent;
+    border: none;
+    height: 30px;
+    width: 30px;
+}
+
+.mobile-facets__header h2 {
+    font-family: "Satoshi";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.mobile-color-swatch {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-checkmark {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.color-checkmark svg {
+    color: white;
+    display: flex;
+    width: 16px;
+
+}
+
+.mobile-color-swatch.active .color-checkmark {
+    opacity: 1;
 }

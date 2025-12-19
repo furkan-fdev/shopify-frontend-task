@@ -1,0 +1,98 @@
+@media (max-width:1200px) {
+    .fdev-discount-badge {
+        position: absolute;
+        top: 1%;
+        right: 2%;
+    }
+}
+
+@media (min-width:989.98px) and (max-width:1200px) {
+
+    .fdev-collection .card__media,
+    .fdev-collection .card__media .media,
+    .fdev-collection .card__media .media img,
+    .fdev-collection .card--card,
+    .fdev-collection .card--standard .card__inner {
+        border-radius: 20px;
+        height: 220px;
+
+    }
+
+    .fdev-collection .card__heading a {
+        font-size: 18px;
+    }
+
+
+}
+
+@media (min-width:750.98px) and (max-width:889px) {
+
+    .fdev-collection .card__media,
+    .fdev-collection .card__media .media,
+    .fdev-collection .card__media .media img,
+    .fdev-collection .card--card,
+    .fdev-collection .card--standard .card__inner {
+        border-radius: 20px;
+        height: 200px;
+
+    }
+
+    .fdev-collection .card__heading a {
+        font-size: 16px;
+    }
+
+    .fdev-facets .fdev-facet-title {
+        font-size: 20px;
+    }
+
+    .fdev-facets .product-count__text {
+        font-size: 12px;
+        margin-right: 8px;
+        color: #00000099;
+    }
+
+    .fdev-facets .fdev-sorting-right-filter h2 {
+        font-size: 12px;
+    }
+
+    .fdev-facets .fdev-sorting-right-filter .facet-filters__sort {
+        font-size: 12px;
+    }
+
+    .fdev-collection .price--on-sale .price__sale .price-item--regular {
+        font-family: "Poppins";
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 13px;
+        line-height: 100%;
+        color: #00000066;
+    }
+
+    .fdev-collection .price--on-sale .price__sale .price-item--sale {
+        font-size: 16px;
+        line-height: 155%;
+    }
+
+
+}
+
+@media (max-width:750px) {
+
+    .fdev-collection .card__media,
+    .fdev-collection .card__media .media,
+    .fdev-collection .card__media .media img,
+    .fdev-collection .card--card,
+    .fdev-collection .card--standard .card__inner {
+        border-radius: 20px;
+        height: 180px;
+
+    }
+
+    .fdev-collection .card__heading a {
+        font-family: "Satoshi";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        text-decoration: none;
+    }
+}
