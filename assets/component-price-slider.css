@@ -150,7 +150,7 @@
 .fdev-apply-button {
     border: 1px solid #0000001A;
     border-radius: 62px;
-    font-family: "Satoshi";
+    font-family: 'Satoshi', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 100%;

@@ -89,7 +89,7 @@
     }
 
     .fdev-collection .card__heading a {
-        font-family: "Satoshi";
+        font-family: 'Satoshi', sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 100%;

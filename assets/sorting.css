@@ -1,3 +1,22 @@
+.fdev-color-filter .list-unstyled {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fdev-color-filter .list-unstyled .list-menu__item {
+    width: 20%;
+}
+
+.fdev-color-filter .list-unstyled .list-menu__item .swatch-input__label {
+    height: 37px;
+    width: 37px;
+}
+
+.fdev-color-filter .list-unstyled .list-menu__item .swatch-input__label .swatch {
+    height: 37px;
+    width: 37px;
+}
+
 .fdev-facets {
     padding: 0px;
 }
@@ -20,7 +39,7 @@
 }
 
 .fdev-facets .fdev-sorting-right-filter h2 {
-    font-family: "Satoshi";
+    font-family: 'Satoshi', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -33,7 +52,7 @@
 }
 
 .fdev-facets .fdev-sorting-right-filter .facet-filters__sort {
-    font-family: "Satoshi";
+    font-family: 'Satoshi', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
@@ -45,7 +64,7 @@
 }
 
 .fdev-facets .product-count__text {
-    font-family: "Satoshi";
+    font-family: 'Satoshi', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -55,7 +74,7 @@
 
 
 .fdev-facets .fdev-facet-title {
-    font-family: "Satoshi";
+    font-family: 'Satoshi', sans-serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 100%;
@@ -86,7 +105,7 @@
 }
 
 .fdev-collection .card__heading a {
-    font-family: "Satoshi";
+    font-family: 'Satoshi', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 100%;
@@ -142,7 +161,7 @@
     color: #FF3333 !important;
     padding: 6px 13px;
     border-radius: 62px;
-    font-family: "Satoshi";
+    font-family: 'Satoshi', sans-serif;
     font-weight: 500;
     font-size: 12px;
 
@@ -176,10 +195,10 @@
 }
 
 .menu-opening .mobile-facets__inner {
-    transform: translateY(50vh) !important;
+    transform: translateY(20vh) !important;
     width: 100%;
     max-width: none;
-    height: 50%;
+    height: 80%;
 
 }
 
@@ -304,7 +323,7 @@
 }
 
 .mobile-filter-normal-group .mobile-filter-list li .mobile-filter-label {
-    font-family: "Satoshi";
+    font-family: 'Satoshi', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 100%;
@@ -328,7 +347,7 @@
 }
 
 .mobile-facets__footer button {
-    font-family: "Satoshi";
+    font-family: 'Satoshi', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 100%;
@@ -346,7 +365,7 @@
 }
 
 .mobile-filter-title {
-    font-family: "Satoshi";
+    font-family: 'Satoshi', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 100%;
@@ -371,7 +390,7 @@
 }
 
 .mobile-facets__header h2 {
-    font-family: "Satoshi";
+    font-family: 'Satoshi', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 100%;

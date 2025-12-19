@@ -28,24 +28,7 @@
   display: none;
 }
 
-#Facet-2-template--19173010079904__product-grid .list-unstyled {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-#Facet-2-template--19173010079904__product-grid .list-unstyled .list-menu__item {
-  width: 20%;
-}
-
-#Facet-2-template--19173010079904__product-grid .list-unstyled .list-menu__item .swatch-input__label {
-  height: 37px;
-  width: 37px;
-}
-
-#Facet-2-template--19173010079904__product-grid .list-unstyled .list-menu__item .swatch-input__label .swatch {
-  height: 37px;
-  width: 37px;
-}
 
 
 .facet-checkbox .swatch {
